@@ -1,0 +1,17 @@
+{
+    "name": "document-timestamping",
+    "version": "1.0.0",
+    "description": "Blockchain Document Timestamping",
+    "type": "module",
+    "scripts": {
+        "start": "npx hardhat node",
+        "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+        "frontend": "npx http-server ./frontend"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "ethers": "^6.11.1",
+        "hardhat": "^2.22.2",
+        "http-server": "^14.1.1"
+    }
+}
